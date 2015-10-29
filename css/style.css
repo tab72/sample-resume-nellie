@@ -1,0 +1,39 @@
+body	{
+	background-color: aqua;
+	/*go up one folder level, then down into 'img'*/
+	background-image: url('../img/nelliebly.jpg');
+	background-repeat: repeat;
+	background-size: 30px;
+
+	color: white;
+	color: black; /*most recent instruction takes priority*/
+
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial, sans-serif;
+
+	/*alternative instructions for font*/
+	font: 900 italic 20px Arial, sans-serif
+}
+
+section	{
+	background-color: red;
+}
+
+.objective	{
+	background-color: orange;
+}
+
+/*if element has more than one class, last (most recent)
+instruction is the one that is applied*/
+
+/*refers to all h2's that are inside an element of class "first"*/
+.first	h2{
+	background-color: yellow;
+}
+
+/*if element has id, more specific so takes priority over class styles*/
+#id	{
+	background-color: green;
+}
